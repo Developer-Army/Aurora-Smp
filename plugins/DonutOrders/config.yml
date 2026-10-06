@@ -1,0 +1,34 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  DonutOrders  –  Aurora SMP Lifesteal & Economy Configuration
+# ─────────────────────────────────────────────────────────────────────────────
+
+update-check:
+  enabled: true
+  notify-ops-on-join: true
+
+orders:
+  # Default maximum simultaneous active orders per player
+  default-limit: 3
+  max-per-player: 3
+
+  # How many days an order lives before it expires and is refunded
+  default-expiry-days: 7
+
+  # Percentage tax taken from each payout to the seller (0 = disabled)
+  tax-percent: 0.0
+
+  # Announce new buy orders in chat to all online players
+  broadcast-on-create: true
+
+database:
+  type: sqlite
+  filename: donutorders.db
+
+gui:
+  orders-per-page: 45
+
+# Per-rank active order limits
+rank-limits:
+  default: 3
+  vip: 6
+  mvp: 10

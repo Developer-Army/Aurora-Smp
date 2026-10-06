@@ -1,0 +1,71 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  DonutOrders  –  Aurora SMP Allowed Order Materials
+# ─────────────────────────────────────────────────────────────────────────────
+
+allowed-items:
+  # Farming & Crop Economy
+  - SUGAR_CANE
+  - CACTUS
+  - BAMBOO
+  - WHEAT
+  - CARROT
+  - POTATO
+  - BEETROOT
+  - PUMPKIN
+  - MELON_SLICE
+  - NETHER_WART
+  - COCOA_BEANS
+  - KELP
+  - SWEET_BERRIES
+  - GLOW_BERRIES
+  - BONE_MEAL
+
+  # Ores & Minerals
+  - COAL
+  - IRON_INGOT
+  - GOLD_INGOT
+  - REDSTONE
+  - LAPIS_LAZULI
+  - DIAMOND
+  - EMERALD
+  - NETHERITE_INGOT
+  - NETHERITE_SCRAP
+  - AMETHYST_SHARD
+  - QUARTZ
+
+  # Mob Drops
+  - GUNPOWDER
+  - STRING
+  - SPIDER_EYE
+  - ROTTEN_FLESH
+  - BONE
+  - ARROW
+  - ENDER_PEARL
+  - BLAZE_ROD
+  - GHAST_TEAR
+  - MAGMA_CREAM
+  - SLIME_BALL
+  - LEATHER
+  - FEATHER
+
+  # Valuables & Rarities
+  - TOTEM_OF_UNDYING
+  - ELYTRA
+  - SHULKER_SHELL
+  - NETHER_STAR
+  - ENCHANTED_GOLDEN_APPLE
+  - GOLDEN_APPLE
+  - HEART_OF_THE_SEA
+  - TRIDENT
+
+  # Building & Logs
+  - OAK_LOG
+  - SPRUCE_LOG
+  - BIRCH_LOG
+  - JUNGLE_LOG
+  - ACACIA_LOG
+  - DARK_OAK_LOG
+  - MANGROVE_LOG
+  - CHERRY_LOG
+  - OBSIDIAN
+  - CRYING_OBSIDIAN

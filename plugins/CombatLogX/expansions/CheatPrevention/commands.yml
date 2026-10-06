@@ -34,6 +34,8 @@ blocked-command-list:
   - "/warp"
   - "/warps"
   - "/pay"
+  - "/order"
+  - "/orders"
 
 # Which commands are allowed during combat?
 # This list is used if you want to un-block a command that is blocked the the other list.
