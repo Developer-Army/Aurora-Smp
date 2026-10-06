@@ -16,9 +16,9 @@ logs/
 .console_history
 
 # World maps (region & entity binary data)
-world/
-world_nether/
-world_the_end/
+/world/
+/world_nether/
+/world_the_end/
 
 # Crash reports & temp files
 crash-reports/
