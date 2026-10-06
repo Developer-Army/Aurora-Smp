@@ -12,10 +12,10 @@ region-restrictions: true
 # FAWE will cancel non admin edits when memory consumption exceeds this %
 #  - Bypass with `/wea` or `//fast` or `fawe.bypass`
 #  - Disable with 100 or -1.
-max-memory-percent: 95
+max-memory-percent: 85
 # When percent memory usage reaches this threshold some aspects of editing will be slowed down:
 #  - FAWE-Asynchronous chunk loading when writing changes (see queue.async-chunk-load-write)
-slower-memory-percent: 80
+slower-memory-percent: 70
 
 # Enable or disable core components
 enabled-components:
@@ -247,7 +247,7 @@ history:
   #  - Must be in the range [64, 33554432]
   buffer-size: 531441
   # Delete history on disk after a number of days
-  delete-after-days: 7
+  delete-after-days: 2
   # Delete history in memory on logout (does not effect disk)
   delete-on-logout: true
   # Delete history on disk on logout
@@ -346,7 +346,7 @@ limits:
     max-blockstates: 1337
     # Maximum size of the player's history in Megabytes:
     #  - History on disk or memory will be deleted
-    max-history-mb: -1
+    max-history-mb: 1000
     # Sets a maximum limit (in kb) for the size of a player's schematics directory (per-player mode only)
     # Set to -1 to disable
     schem-file-size-limit: -1

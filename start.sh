@@ -21,7 +21,7 @@ else
     exit 1
 fi
 
-exec "$JAVA_BIN" -Xms2G -Xmx4G \
+exec "$JAVA_BIN" -Xms10G -Xmx10G \
   -XX:+UseG1GC \
   -XX:+ParallelRefProcEnabled \
   -XX:MaxGCPauseMillis=200 \
@@ -41,4 +41,5 @@ exec "$JAVA_BIN" -Xms2G -Xmx4G \
   -XX:MaxTenuringThreshold=1 \
   -Dusing.aikars.flags=https://mcflags.emc.gs \
   -Daikars.new.flags=true \
+  --add-modules=jdk.incubator.vector \
   -jar purpur.jar --nogui "$@"

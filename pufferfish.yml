@@ -4,7 +4,7 @@
 # Download new builds at https://ci.pufferfish.host/job/Pufferfish
 info:
   version: '1.0'
-tps-catchup: true
+tps-catchup: false
 sentry-dsn: ''
 allow-end-crystal-respawn: true
 # These values define a entity's maximum lifespan. If an
@@ -19,17 +19,17 @@ enable-suffocation-optimization: true
 enable-async-mob-spawning: true
 # Optimizes projectile settings
 projectile:
-  max-loads-per-tick: 10
-  max-loads-per-projectile: 10
+  max-loads-per-tick: 8
+  max-loads-per-projectile: 8
 # Optimizes entity brains when
 # they're far away from the player
 dab:
-  enabled: false
+  enabled: true
   start-distance: 12
   max-tick-freq: 20
   activation-dist-mod: 8
   blacklisted-entities: []
-inactive-goal-selector-throttle: false
+inactive-goal-selector-throttle: true
 # Settings for things that don't belong elsewhere
 misc:
   disable-method-profiler: true

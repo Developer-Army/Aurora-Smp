@@ -34,10 +34,10 @@ settings:
       stonecutter: <player> has sawed themself in half
   register-minecraft-debug-commands: false
   server-mod-name: Purpur
-  use-alternate-keepalive: false
+  use-alternate-keepalive: true
   disable-give-dropping: false
   bee-count-payload: false
-  tps-catchup: true
+  tps-catchup: false
   fix-projectile-looting-transfer: false
   clamp-attributes: true
   limit-armor: true
@@ -807,7 +807,7 @@ world-settings:
         attributes:
           max_health: 10.0
           scale: 1.0
-        disable-treasure-searching: false
+        disable-treasure-searching: true
         takes-damage-from-water: false
         naturally-aggressive-to-players-chance: 0.0
         always-drop-exp: false
@@ -1457,7 +1457,7 @@ world-settings:
         always-drop-exp: false
         minimum-demand: 0
         lobotomize:
-          enabled: false
+          enabled: true
           check-interval: 100
           wait-until-trade-locked: false
         display-trade-item: true

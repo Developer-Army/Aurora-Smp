@@ -201,14 +201,14 @@ conditions:
     false: "~%essentials_nickname%"
 
 placeholder-refresh-intervals:
-  default-refresh-interval: 500
-  "%server_uptime%": 1000
+  default-refresh-interval: 1000
+  "%server_uptime%": 2000
   "%server_tps_1_colored%": 1000
-  "%server_unique_joins%": 5000
-  "%player_health%": 200
-  "%player_ping%": 1000
-  "%vault_prefix%": 1000
-  "%rel_factionsuuid_relation_color%": 1000
+  "%server_unique_joins%": 10000
+  "%player_health%": 1000
+  "%player_ping%": 2000
+  "%vault_prefix%": 2000
+  "%rel_factionsuuid_relation_color%": 2000
 
 # assigning groups by permission nodes instead of taking them from permission plugin
 assign-groups-by-permissions: false
@@ -225,7 +225,7 @@ primary-group-finding-list:
 # Refresh interval (in milliseconds) of:
 # - Permission checks in conditions / sorting
 # - Group retrieving from permission plugin for sorting / per-group properties
-permission-refresh-interval: 1000
+permission-refresh-interval: 2500
 
 # Unlocks extra console messages
 debug: false
