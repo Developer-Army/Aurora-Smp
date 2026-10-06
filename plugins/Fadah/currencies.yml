@@ -1,0 +1,34 @@
+# #########################################
+# #                Fadah                  #
+# #     Multi-Currency Configuration      #
+# #########################################
+
+default-currency: vault
+vault:
+  enabled: true
+  name: Money
+  symbol: $
+coins-engine:
+  enabled: true
+  # Which currencies to use from coins engine.
+  currencies:
+  - economy: mob_coins
+    display-name: Mob Coins
+    symbol: $
+  - economy: coins
+    display-name: Coins
+    symbol: $
+redis-economy:
+  enabled: true
+  # Which currencies to use from redis economy, if your using the default currency use the vault currency instead.
+  currencies:
+  - economy: dollar
+    display-name: Dollar
+    symbol: $
+  - economy: euro
+    display-name: Euro
+    symbol: €
+player-points:
+  enabled: true
+  name: Points
+  symbol: $

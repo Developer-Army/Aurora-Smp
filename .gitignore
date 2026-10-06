@@ -1,0 +1,27 @@
+# JVM & System Runtimes
+runtime/
+
+# Paper / Purpur internals & caches
+cache/
+libraries/
+versions/
+.paper-remapped/
+
+# Server executable (auto-downloaded by start.sh if missing)
+purpur.jar
+
+# Logs & shell history
+logs/
+*.log
+.console_history
+
+# World maps (region & entity binary data)
+world/
+world_nether/
+world_the_end/
+
+# Crash reports & temp files
+crash-reports/
+*.tmp
+.DS_Store
+Thumbs.db

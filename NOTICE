@@ -1,0 +1,33 @@
+Aurora SMP
+Copyright 2026 Developer Army
+
+This product includes software developed by Developer Army.
+
+========================================================================
+Third-Party Software and Open Source Notices
+========================================================================
+
+1. Minecraft Server & Engine
+   - Purpur Server (PurpurMC): Licensed under the GNU General Public License v3.0 (GPLv3).
+     https://purpurmc.org/
+   - Minecraft (Mojang AB / Microsoft): Subject to the Minecraft End User License Agreement (EULA).
+     https://aka.ms/MinecraftEULA
+
+2. Server Plugins
+   The following third-party plugins are included or utilized:
+   - LuckPerms (MIT License) - Copyright (c) Luck <luck@lucko.me>
+   - Vault (LGPLv3 License) - Copyright (c) Vault Team
+   - PlaceholderAPI (GPLv3 License) - Copyright (c) HelpChat
+   - EssentialsX (GPLv3 License) - Copyright (c) EssentialsX Team
+   - PlayerKits 2 - Copyright (c) Ajneb97
+   - EconomyShopGUI - Copyright (c) Gypopo
+   - Fadah (GPLv3 License) - Copyright (c) Finally A Decent
+   - TAB - Copyright (c) NEZNAMY
+   - FancyNpcs (Apache-2.0 License) - Copyright (c) Oliver Sauer
+   - GrimAC (GPLv3 License) - Copyright (c) GrimAnticheat
+   - CombatLogX - Copyright (c) SirBlobman
+   - CoreProtect - Copyright (c) PlayPro Technologies LLC
+   - WorldGuard (GPLv3 License) - Copyright (c) EngineHub
+   - FastAsyncWorldEdit (GPLv3 License) - Copyright (c) IntellectualSites
+   - Chunky (GPLv3 License) - Copyright (c) pop4959
+   - spark (LGPLv3 License) - Copyright (c) Luck <luck@lucko.me>
