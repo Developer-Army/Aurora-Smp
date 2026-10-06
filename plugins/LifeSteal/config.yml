@@ -3,12 +3,13 @@
 
 heart-item-name: "<#ff416c>&l❤ <#ff4b2b>&lHeart"
 
-# Maximum health in HP (40 HP = 20 Hearts, DonutSMP standard)
-max-health: 40
-min-health: 2
+# Maximum health in hearts (20 hearts = 40 HP max)
+max-health: 20
+# One heart minimum limit: players never drop or lose hearts below 1 heart
+min-health: 1
 
-# Feature Toggles
-ban-on-zero-hearts: true
+# Feature Toggles (do not ban on zero hearts; 1 heart floor enforced)
+ban-on-zero-hearts: false
 
 # Messages
 messages:
