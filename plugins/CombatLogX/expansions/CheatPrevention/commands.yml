@@ -8,6 +8,9 @@ delay-after-combat: 0
 # You can add "*" to the list to block ALL commands.
 blocked-command-list:
   - "/tp"
+  - "/tpa"
+  - "/tpaccept"
+  - "/tpahere"
   - "/fly"
   - "/gamemode"
   - "/gm"
@@ -15,7 +18,22 @@ blocked-command-list:
   - "/spawn"
   - "/home"
   - "/sethome"
-  - "/msg"
+  - "/back"
+  - "/rtp"
+  - "/wild"
+  - "/shop"
+  - "/ah"
+  - "/fadah"
+  - "/auction"
+  - "/kit"
+  - "/kits"
+  - "/ec"
+  - "/enderchest"
+  - "/craft"
+  - "/workbench"
+  - "/warp"
+  - "/warps"
+  - "/pay"
 
 # Which commands are allowed during combat?
 # This list is used if you want to un-block a command that is blocked the the other list.

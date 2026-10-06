@@ -25,3 +25,15 @@ crash-reports/
 *.tmp
 .DS_Store
 Thumbs.db
+
+# Databases & local player state
+*.db
+*.db-shm
+*.db-wal
+*.mv.db
+usercache.json
+version_history.json
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json

@@ -83,7 +83,7 @@ timer:
   # This is the default amount of time that players will be tagged (in seconds).
   # This value will be used if the timer type is GLOBAL or if a permission cannot be detected.
   # Default: 10
-  default-timer: 10
+  default-timer: 15
 
 # Which permission will prevent players from being tagged into combat?
 # You must add this permission manually.
