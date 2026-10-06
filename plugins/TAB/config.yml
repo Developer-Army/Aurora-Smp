@@ -5,7 +5,7 @@ header-footer:
     default:
       header:
         - ""
-        - "<#00f2fe>&lAURORA <#4facfe>&lSMP &7• &fSeason 1"
+        - "<#00f2fe>&lAURORA <#4facfe>&lSMP &7• &f1.21.11 Lifesteal"
         - "&7play.aurorasmp.net"
         - ""
         - "&8[&a✔&8] &fOnline: &b%online%&7/&b%maxplayers% &8• &fPing: &a%player_ping%ms &8• &fTPS: &a%server_tps_1_colored%"

@@ -1,36 +1,41 @@
-# Aurora SMP
+# Aurora SMP (1.21.11 Lifesteal & Economy)
 
-Aurora SMP is a Minecraft 1.21.1 server environment running on **Purpur**, pre-configured with modern performance optimization, economy, combat logging, and administration plugins.
+Aurora SMP is an enterprise-optimized Minecraft **1.21.11** Lifesteal and Economy server built on **Purpur**, configured for high-performance dedicated hosting (Ryzen 9 / 5600X, 12GB RAM, 50GB SSD).
 
-## Plugins Installed
+Universal cross-version protocol support is pre-installed via the ViaVersion suite, allowing all players across Minecraft versions **1.8 through 1.21.11+ / modern clients** to connect.
 
-* **Permissions & Economy**:
-  * [LuckPerms](https://luckperms.net/) (v5.5.71)
-  * [Vault](https://github.com/MilkBowl/VaultAPI) (v1.7.3)
-  * [PlaceholderAPI](https://placeholderapi.com/) (v2.12.3)
-  * [EssentialsX](https://essentialsx.net/) (v2.22.0) (+ Chat, Spawn)
-  * [EconomyShopGUI](https://www.spigotmc.org/resources/economyshopgui.69974/) (v7.3.2)
-  * [Fadah](https://github.com/Finally-A-Decent/Fadah) (v3.2.1)
-* **Kits & Interaction**:
-  * [PlayerKits 2](https://www.spigotmc.org/resources/playerkits-2.112616/) (v1.24.1)
-  * [FancyNpcs](https://modrinth.com/plugin/fancynpcs) (v2.9.2)
+## Core Features & Economy
+
+* **Lifesteal Mechanics**:
+  * [LifeSteal](plugins/LifeSteal/config.yml): 20-heart (40 HP) cap, custom heart items (`/withdrawheart`), and a strict 1-heart floor limit (players never lose or drop hearts below 1 heart).
+* **DonutSMP Buy-Order Marketplace**:
+  * [DonutOrders](plugins/DonutOrders/config.yml): Player-driven buy and sell order exchange (`/orders` and `/order`) with automated escrow payouts.
+* **Farming Economy**:
+  * [EconomyShopGUI](plugins/EconomyShopGUI/shops/Farming.yml): Custom DonutSMP crop prices for Sugar Cane, Cactus, Bamboo, Wheat, and Mob items to incentivize massive automated farming.
+  * [Fadah](plugins/Fadah/config.yml): Auction house (`/ah`) for player item auctions.
+* **Cross-Version Client Compatibility**:
+  * [ViaVersion](plugins/ViaVersion.jar): Upward protocol compatibility for 1.21.x through 1.21.11+ and modern releases.
+  * [ViaBackwards](plugins/ViaBackwards.jar): Downward compatibility for 1.9 through 1.20.x clients.
+  * [ViaRewind](plugins/ViaRewind.jar): Legacy compatibility for 1.8.x and 1.7.x PvP clients.
 * **Combat & Anticheat**:
-  * [GrimAC](https://github.com/GrimAnticheat/Grim) (v2.3.74)
-  * [CombatLogX](https://github.com/SirBlobman/CombatLogX) (v11.6.0) with BlueSlimeCore & expansions
-* **World & Rollback**:
-  * [FastAsyncWorldEdit (FAWE)](https://github.com/IntellectualSites/FastAsyncWorldEdit) (v2.16.0)
-  * [WorldGuard](https://enginehub.org/worldguard/) (v7.0.12)
-  * [CoreProtect](https://coreprotect.net/) (v24.1)
-  * [Chunky](https://modrinth.com/plugin/chunky) (v1.4.40)
-  * [TAB](https://github.com/NEZNAMY/TAB) (v6.2.0)
-  * [spark](https://spark.lucko.me/) (Built-in Purpur profiler)
+  * [CombatLogX](plugins/CombatLogX/config.yml): 15-second combat tagging, immediate disconnect death punishment, and blocked escape commands (`/tpa`, `/home`, `/spawn`, `/shop`, `/ah`, `/orders`, `/kit`, `/ec`).
+  * [GrimAC](plugins/GrimAC/config.yml): Async predictive movement and combat anticheat.
+* **Rank & Server Visuals**:
+  * [TAB](plugins/TAB/config.yml): Branded Aurora SMP gradient headers, footers, nametags, and DonutSMP sidebar scoreboard showing Hearts (`%player_health%❤`), Balance, and Combat Status.
+  * [LuckPerms](plugins/LuckPerms/): Fast permissions and group management.
+  * [Vault](plugins/Vault/): Unified economy bridge.
+  * [PlayerKits 2](plugins/PlayerKits2/): Tiered PvP and starter kit system (`/kit`).
+  * [WorldGuard](plugins/WorldGuard/) & [FastAsyncWorldEdit (FAWE)](plugins/FastAsyncWorldEdit/): Spawn protection and low-memory asynchronous terrain editing.
+  * [CoreProtect](plugins/CoreProtect/): High-speed rollbacks with hopper/fluid logging stripped to protect the 50GB storage limit.
 
-## Getting Started
+## Hardware & Performance Tuning
 
-### Prerequisites
-- Java 21+ (or use bundled OpenJDK 21)
+* **Memory Allocation**: 10GB JVM Heap (`-Xms10G -Xmx10G`) with 2GB reserved for off-heap Netty and system overhead.
+* **SIMD Vectorization**: Vector API incubator module enabled (`--add-modules=jdk.incubator.vector`) for Ryzen Zen processors.
+* **Entity & Redstone Engine**: Pufferfish Dynamic Activation of Brains (DAB) and Paper `ALTERNATE_CURRENT` redstone engine enabled.
 
-### Starting the Server
+## Starting the Server
+
 ```bash
 chmod +x start.sh
 ./start.sh
@@ -40,16 +45,4 @@ chmod +x start.sh
 
 Copyright (c) 2026 Developer Army.
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at:
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
-See the [LICENSE](LICENSE) and [NOTICE](NOTICE) files for full licensing and third-party attribution terms.
+Licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) and [NOTICE](NOTICE) files for complete licensing and attribution terms.
