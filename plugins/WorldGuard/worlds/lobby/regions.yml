@@ -3,6 +3,8 @@
 
 regions:
   __global__:
+    type: global
+    priority: 0
     flags:
       build: deny
       pvp: deny

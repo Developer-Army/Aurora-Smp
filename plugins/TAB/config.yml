@@ -36,8 +36,8 @@ scoreboard-teams:
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Playerlist-Objective
 playerlist-objective:
   enabled: true
-  value: "%player_ping%"
-  fancy-value: "&7%player_ping%ms"
+  value: "%ping%"
+  fancy-value: "&7%ping%ms"
   title: "&bPing"
   render-type: INTEGER
   disable-condition: '%world%=disabledworld'
