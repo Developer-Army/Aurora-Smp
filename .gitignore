@@ -38,3 +38,12 @@ banned-ips.json
 banned-players.json
 ops.json
 whitelist.json
+*.bin
+**/playerdata/
+playerdata.yml
+**/userdata/
+uuidcache.txt
+*.old.*
+transaction-log.txt
+plugins/LuckPerms/libs/
+plugins/GrimAC/data/

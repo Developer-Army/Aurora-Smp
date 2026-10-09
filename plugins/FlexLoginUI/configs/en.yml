@@ -1,0 +1,79 @@
+# == DO NOT EDIT config-version ==
+config-version: 3
+# == DO NOT EDIT config-version ==
+
+debug: false
+language: en.yml
+text:
+  login:
+    title: "§d✦ Aurora SMP ✦ §e⚠"
+    tip: "§fWelcome back, Dreamer!\n§7Your adventure is waiting for you.\n§7Please enter your password to continue."
+    password_label: "§dPassword"
+    login_button: "§d✦ LOGIN"
+    close_button: "§cCancel"
+    exit_button: "§cDisconnect"
+    exit_message: "§cLogin cancelled."
+    password_error: "§cIncorrect password!"
+    reopen: "Type /logui to reopen the login dialog"
+  register:
+    title: "§d✦ Aurora SMP ✦ §a✦"
+    tip: "§fWelcome to Aurora SMP!\n§7Please create a secure password to start your journey."
+    tip_password: "§7Please set a password"
+    tip_confirm: "§7Please confirm your password"
+    password_label: "§dSet Password"
+    confirm_label: "§dConfirm Password"
+    register_button: "§a✦ REGISTER"
+    close_button: "§cCancel"
+    exit_button: "§cDisconnect"
+    exit_message: "§cRegistration cancelled."
+    please_reset_password: "Please reset your password."
+    registration_failed: "§cRegistration failed!"
+    registration_successful: "§aRegistration successful! Welcome to Aurora SMP."
+    password_not_match: "§cPasswords do not match!"
+    reopen: "Type /regui to reopen the registration dialog"
+  change_password:
+    title: "§d✦ Change Password ✦"
+    tip_old: "§7Enter your old password"
+    tip_new: "§7Enter your new password"
+    tip_confirm: "§7Confirm your new password"
+    old_password_label: "§7Old Password"
+    new_password_label: "§aNew Password"
+    confirm_label: "§aConfirm Password"
+    change_button: "§aUpdate Password"
+    close_button: "§cCancel"
+    password_not_match: "§cPasswords do not match!"
+    change_failed: "§cPassword update failed!"
+    change_successful: "§aPassword changed successfully!"
+    wrong_password: "§cIncorrect old password!"
+    reopen: "Type /changepasswordui to reopen dialog"
+  bedrock_placeholder:
+    login:
+      password: "Enter your password"
+    register:
+      password: "Set your password"
+      confirm: "Re-enter your password"
+  captcha:
+    register:
+      tip:
+        - "§7Enter the captcha code to proceed: "
+        - "§c%captcha_code%"
+      title: "Verification"
+      label: "Captcha"
+      verify: "Verify"
+      invalid: "§cInvalid captcha code"
+    login:
+      tip:
+        - "§7Enter the captcha code to proceed: "
+        - "§c%captcha_code%"
+      title: "Verification"
+      label: "Captcha"
+      verify: "Verify"
+      invalid: "§cInvalid captcha code"
+pages:
+  dialog:
+    horizontal_buttons: true
+    allow_close: false
+  anvil:
+    allow_close: false
+  bedrock:
+    allow_close: false

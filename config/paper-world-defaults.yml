@@ -153,17 +153,17 @@ entities:
     alt-item-despawn-rate:
       enabled: true
       items:
-        cobblestone: 300
-        netherrack: 300
-        dirt: 300
-        gravel: 300
-        sand: 300
-        diorite: 300
-        granite: 300
         andesite: 300
-        tuff: 300
-        deepslate: 300
         arrow: 200
+        cobblestone: 300
+        deepslate: 300
+        diorite: 300
+        dirt: 300
+        granite: 300
+        gravel: 300
+        netherrack: 300
+        sand: 300
+        tuff: 300
     count-all-mobs-for-spawning: false
     creative-arrow-despawn-rate: default
     despawn-range-shape: ELLIPSOID

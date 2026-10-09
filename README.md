@@ -7,7 +7,7 @@ Universal cross-version protocol support is pre-installed via the ViaVersion sui
 ## Core Features & Economy
 
 * **Authentication System**:
-  * [GUI Player Auth](plugins/GUIPlayerAuth/config.yml): Interactive GUI PIN login and registration system protecting accounts with frozen movement, blocked commands, and chat restrictions prior to verification.
+  * [AuthMeReloaded](plugins/AuthMe.jar) & [FlexLoginUI](plugins/FlexLoginUI/configs/en.yml): Modern interactive modal dialog authentication with password hashing, session timeout, movement freezing, and PacketEvents packet interception matching the MineDream dialog UI.
 * **Island Lobby & Hub**:
   * [Lobby World](lobby/): BreadBuilds Island Lobby configured via [Multiverse-Core](plugins/Multiverse-Core/) and protected by [WorldGuard](plugins/WorldGuard/worlds/lobby/regions.yml) (PvP disabled, fall damage denied, peaceful, invincibility enabled). Players access via `/lobby` or `/spawn`.
 * **DonutSMP Economy**:

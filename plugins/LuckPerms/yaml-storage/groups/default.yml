@@ -1,6 +1,8 @@
 name: default
 permissions:
-  - guiplayerauth.use:
+  - authme.player.*:
+      value: true
+  - flexloginui.pages.*:
       value: true
   - multiverse.access.lobby:
       value: true
