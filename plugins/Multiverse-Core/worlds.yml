@@ -15,7 +15,7 @@ minecraft:lobby:
     amount: 0.0
     currency: '@vault-economy'
   gamemode: survival
-  generator: '@error'
+  generator: ''
   hidden: false
   hunger: false
   keep-spawn-in-memory: true
@@ -97,7 +97,7 @@ minecraft:overworld:
     amount: 0.0
     currency: '@vault-economy'
   gamemode: survival
-  generator: '@error'
+  generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true

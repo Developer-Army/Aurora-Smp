@@ -1,9 +1,103 @@
 # BetterRTP Configuration
 # Aurora SMP 1.21.11
 
-Language-File: 'en.yml'
+PermissionGroup:
+  Enabled: false
+  Groups:
+  - vip:
+    - Build_World:
+        Priority: 0
+        MaxRadius: 10000
+        MinRadius: 1000
+        Price: 100
+        Cooldown: 500
+    - Survival_World:
+        Priority: 10
+        UseWorldBorder: false
+        MaxRadius: 5000
+        MinRadius: 1000
+        CenterX: 10
+        CenterZ: 10
+        Price: 10
+        MaxY: 320
+        MinY: 0
+  - vip2:
+    - Build_World:
+        MaxRadius: 25000
+        MinRadius: 10000
+        Price: 15
+        Cooldown: 1500
+BlacklistedBlocks:
+- stationary_water
+- stationary_lava
+- water
+- flowing_water
+- lava
+- flowing_lava
+- cactus
+- leaves
+- leaves_2
+- air
+- void_air
+DisabledWorlds:
+- prison
+- creative
+Overrides:
+- master_world: world
+- creative_world: world
+WorldType:
+- world: NORMAL
+- world_nether: NETHER
+- world_the_end: NORMAL
+Language-File: en.yml
 
 Settings:
+  Respect:
+    # # Respect MinePlots plots (https://builtbybit.com/resources/mineplots.21646/)
+    MinePlots: false
+    # # Respect WorldGuard areas (https://dev.bukkit.org/projects/worldguard)
+    WorldGuard: false
+    # # Respect GriefPrevention areas (https://www.spigotmc.org/resources/griefprevention.1884/)
+    GriefPrevention: false
+    # # Respect Towny areas (https://www.spigotmc.org/resources/towny.72694/)
+    Towny: false
+    # # Respect RedProtect areas (https://www.spigotmc.org/resources/redprotect.15841/)
+    RedProtect: false
+    # # Respect FactionsUUID areas (https://www.spigotmc.org/resources/factionsuuid.1035/)
+    FactionsUUID: false
+    # # Respect Lands areas (https://www.spigotmc.org/resources/lands.53313/)
+    Lands: false
+    # # Respect Residence areas (https://www.spigotmc.org/resources/residence.11480/)
+    Residence: false
+    # # Respect KingdomsX areas (https://www.spigotmc.org/resources/kingdomsx.77670/)
+    KingdomsX: false
+    # # Respect hClaims areas (https://www.spigotmc.org/resources/hclaims.90540/)
+    hClaims: false
+    # # Respect GriefDefender areas (https://www.spigotmc.org/resources/griefdefender.68900/)
+    GriefDefender: false
+    # # Respect UltimateClaims areas (https://songoda.com/marketplace/product/ultimateclaims-the-ultimate-claiming-plugin.65)
+    UltimateClaims: false
+    # # Respect Pueblos regions (https://www.spigotmc.org/resources/pueblos.91255/) (My Favorite :D)
+    Pueblos: false
+    # # Respect SaberFactions areas (https://www.spigotmc.org/resources/saberfactions.69771/) (Added in 3.4.5)
+    SaberFactions: false
+    # # Respect HuskTowns areas (https://www.spigotmc.org/resources/husktowns.92672/) (Added in 3.4.5)
+    HuskTowns: false
+    # # Respect FactionsBridge compatible claims (https://www.spigotmc.org/resources/factionsbridge.89716/) (Added in 3.6.9)
+    FactionsBridge: false
+    # # Respect CrashClaim claims (https://www.spigotmc.org/resources/crashclaim-claiming-plugin.94037/) (Added in 3.6.9)
+    CrashClaim: false
+  PreloadRadius: 5
+  RtpOnFirstJoin:
+    Enabled: false # Make the player rtp when joining the server for the first time
+    World: world # World to first rtp in
+    SetAsRespawn: false # Save this first rtp as players new spawn point
+  Queue:
+    Enabled: true # Allows betterrtp to automatically queue up safe rtp locations prior to players executing `/rtp`
+  Logger:
+    Enabled: true # Log all things rtp related to the log.log file
+    LogToConsole: false
+    Format: yyyy-MM-dd HH:mm:ss
   Debugger: false
   RespectWorldGuard: true
   RespectGriefPrevention: false
@@ -11,6 +105,8 @@ Settings:
   MinRadius: 100
   MaxAttempts: 25
   Cooldown:
+    LockAfter: 0
+    PerWorld: false
     Enabled: false
     Time: 0
   Delay:
@@ -19,30 +115,31 @@ Settings:
     CancelOnMove: false
   Particles:
     Enabled: true
-    Type: 'PORTAL'
+    Type: PORTAL
     Amount: 100
-    Shape: 'TELEPORT'
+    Shape: TELEPORT
   DisableUpdater: true
 
 Default:
+  RTPOnDeath: false
   UseWorldBorder: false
   Biomes: []
   MaxRadius: 4000
   MinRadius: 100
   CenterX: 0
   CenterZ: 0
-  Shape: 'circle'
+  Shape: circle
   MaxY: 310
   MinY: 62
 
 CustomWorlds:
-  - Name: 'world'
-    UseWorldBorder: false
-    Biomes: []
-    MaxRadius: 5000
-    MinRadius: 200
-    CenterX: 0
-    CenterZ: 0
-    Shape: 'circle'
-    MaxY: 310
-    MinY: 62
+- Name: world
+  UseWorldBorder: false
+  Biomes: []
+  MaxRadius: 5000
+  MinRadius: 200
+  CenterX: 0
+  CenterZ: 0
+  Shape: circle
+  MaxY: 310
+  MinY: 62

@@ -47,3 +47,8 @@ uuidcache.txt
 transaction-log.txt
 plugins/LuckPerms/libs/
 plugins/GrimAC/data/
+*.bak
+*.lck
+**/playerdata.yml
+plugins/BetterRTP/log.txt*
+plugins/FancyAnalytics/

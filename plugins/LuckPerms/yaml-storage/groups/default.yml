@@ -18,6 +18,8 @@ permissions:
       value: true
   - betterrtp.world:
       value: true
+  - betterrtp.world.*:
+      value: true
   - essentials.spawn:
       value: true
   - essentials.warp:
