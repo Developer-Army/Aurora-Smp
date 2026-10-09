@@ -15,11 +15,9 @@ logs/
 *.log
 .console_history
 
-# World maps (region & entity binary data)
-/world/
-/world_nether/
-/world_the_end/
-/lobby/
+# World session locks
+session.lock
+**/session.lock
 
 # Crash reports & temp files
 crash-reports/
