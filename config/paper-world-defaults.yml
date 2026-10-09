@@ -16,48 +16,26 @@ _version: 31
 anticheat:
   anti-xray:
     enabled: true
-    engine-mode: 2
+    engine-mode: 1
     hidden-blocks:
-    - copper_ore
-    - deepslate_copper_ore
-    - raw_copper_block
-    - gold_ore
-    - deepslate_gold_ore
-    - raw_gold_block
-    - iron_ore
-    - deepslate_iron_ore
-    - raw_iron_block
-    - coal_ore
-    - deepslate_coal_ore
-    - lapis_ore
-    - deepslate_lapis_ore
-    - mossy_cobblestone
-    - obsidian
-    - chest
     - diamond_ore
     - deepslate_diamond_ore
-    - redstone_ore
-    - deepslate_redstone_ore
-    - clay
+    - ancient_debris
     - emerald_ore
     - deepslate_emerald_ore
-    - ender_chest
-    - ancient_debris
-    - nether_gold_ore
-    - nether_quartz_ore
+    - gold_ore
+    - deepslate_gold_ore
+    - iron_ore
+    - deepslate_iron_ore
+    - lapis_ore
+    - deepslate_lapis_ore
+    - chest
     lava-obscures: false
-    max-block-height: 180
+    max-block-height: 128
     replacement-blocks:
     - stone
-    - oak_planks
     - deepslate
-    - tuff
-    - diorite
-    - andesite
-    - granite
     - netherrack
-    - basalt
-    - blackstone
     update-radius: 2
     use-permission: false
   obfuscation:

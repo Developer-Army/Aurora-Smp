@@ -18,6 +18,10 @@ Universal cross-version protocol support is pre-installed via the ViaVersion sui
   * Pure Survival Balance: Player kits completely disabled to enforce genuine grind-and-trade survival progression.
 * **Lifesteal Mechanics**:
   * [LifeSteal](plugins/LifeSteal/config.yml): 20-heart (40 HP) cap, custom heart items (`/withdrawheart`), and strict 1-heart floor limit (players never drop or lose hearts below 1 heart).
+* **Social & Proximity Voice**:
+  * [Simple Voice Chat](plugins/VoiceChat.jar): Low-latency proximity voice chat on UDP port 24454 configured in [voicechat-server.properties](plugins/voicechat/voicechat-server.properties).
+* **Anti-Xray & Security**:
+  * Lightweight Anti-Xray ([config/paper-world-defaults.yml](config/paper-world-defaults.yml)): Engine-Mode 1 hides underground diamond, netherite debris, emerald, gold, iron, and chests without the CPU or packet overhead of fake block generation.
 * **Combat & Anticheat**:
   * [Lightning Anticheat](plugins/LightningAC.jar): High-performance fork of GrimAC utilizing an asynchronous predictive 1:1 movement simulation engine with optimized reach, interaction, and movement checks.
   * [CombatLogX](plugins/CombatLogX/config.yml): Strict PvP-only combat tagging (natural damage and mob taggers stripped so fall, fire, and PvE never tag). 15-second timer, disconnect death punishment, and blocked escape commands (`/tpa`, `/home`, `/spawn`, `/lobby`, `/shop`, `/ah`, `/orders`, `/rtp`, `/ec`).

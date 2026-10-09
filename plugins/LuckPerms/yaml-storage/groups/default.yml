@@ -4,6 +4,10 @@ permissions:
       value: true
   - flexloginui.pages.*:
       value: true
+  - voicechat.listen:
+      value: true
+  - voicechat.speak:
+      value: true
   - multiverse.access.lobby:
       value: true
   - multiverse.access.world:
