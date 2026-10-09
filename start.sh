@@ -11,8 +11,12 @@ if [ ! -f "$SCRIPT_DIR/purpur.jar" ]; then
     curl -s -L -o "$SCRIPT_DIR/purpur.jar" "https://api.purpurmc.org/v2/purpur/1.21.1/2329/download"
 fi
 
-# Prioritize local JDK 21
-if [ -x "$SCRIPT_DIR/runtime/jdk21/usr/lib/jvm/java-21-openjdk-amd64/bin/java" ]; then
+# Prioritize Java 21+ runtime
+if [ -x "$HOME/.sklauncher/runtime/java-runtime-delta/linux/java-runtime-delta/bin/java" ]; then
+    JAVA_BIN="$HOME/.sklauncher/runtime/java-runtime-delta/linux/java-runtime-delta/bin/java"
+elif [ -x "/usr/lib/jvm/temurin-25-jdk-amd64/bin/java" ]; then
+    JAVA_BIN="/usr/lib/jvm/temurin-25-jdk-amd64/bin/java"
+elif [ -x "$SCRIPT_DIR/runtime/jdk21/usr/lib/jvm/java-21-openjdk-amd64/bin/java" ]; then
     JAVA_BIN="$SCRIPT_DIR/runtime/jdk21/usr/lib/jvm/java-21-openjdk-amd64/bin/java"
 elif command -v java &> /dev/null; then
     JAVA_BIN="java"
