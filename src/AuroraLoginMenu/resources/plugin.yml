@@ -1,0 +1,8 @@
+name: AuroraLoginMenu
+version: 1.0.0
+main: net.aurorasmp.loginmenu.AuroraLoginMenu
+author: DeveloperArmy
+depend: [AuthMe]
+softdepend: [FlexLoginUI]
+api-version: '1.21'
+description: Displays a styled background menu during AuthMe login and registration.

@@ -1,5 +1,5 @@
 # WorldGuard Region Configuration for Lobby
-# Aurora SMP 1.21.11
+# Quartz SMP 1.21.11
 
 regions:
   __global__:
@@ -18,4 +18,4 @@ regions:
       lava-fire: deny
       lighter: deny
       item-drop: deny
-      greeting: "&b&lAurora SMP &7» Welcome to the Server Lobby!"
+      greeting: "&b&lQuartz SMP &7» Welcome to the Server Lobby!"

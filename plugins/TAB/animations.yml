@@ -33,16 +33,16 @@ MyAnimation1:
 ServerName:
   change-interval: 300
   texts:
-  - '<#00f2fe>&lAURORA <#4facfe>&lSMP'
-  - '<#4facfe>&lAURORA <#00f2fe>&lSMP'
-  - '<#38ef7d>&lAURORA <#11998e>&lSMP'
-  - '<#11998e>&lAURORA <#38ef7d>&lSMP'
+  - '<#00f2fe>&lQUARTZ <#4facfe>&lSMP'
+  - '<#4facfe>&lQUARTZ <#00f2fe>&lSMP'
+  - '<#38ef7d>&lQUARTZ <#11998e>&lSMP'
+  - '<#11998e>&lQUARTZ <#38ef7d>&lSMP'
 web:
   change-interval: 500
   texts:
-  - '&bplay.aurorasmp.net'
-  - '&3discord.gg/aurorasmp'
-  - '&astore.aurorasmp.net'
+  - '&bplay.quartzsmp.net'
+  - '&3discord.gg/quartzsmp'
+  - '&astore.quartzsmp.net'
 vote:
   change-interval: 1000
   texts:

@@ -5,14 +5,14 @@ header-footer:
     default:
       header:
         - ""
-        - "<#00f2fe>&lAURORA <#4facfe>&lSMP &7• &f1.21.11 Lifesteal"
-        - "&7play.aurorasmp.net"
+        - "<#00f2fe>&lQUARTZ <#4facfe>&lSMP &7• &f1.21.11 Lifesteal"
+        - "&7play.quartzsmp.net"
         - ""
         - "&8[&a✔&8] &fOnline: &b%online%&7/&b%maxplayers% &8• &fPing: &a%player_ping%ms &8• &fTPS: &a%server_tps_1_colored%"
         - ""
       footer:
         - ""
-        - "&fStore: &bstore.aurorasmp.net &8• &fDiscord: &3discord.gg/aurorasmp"
+        - "&fStore: &bstore.quartzsmp.net &8• &fDiscord: &3discord.gg/quartzsmp"
         - "<#4facfe>&m                                                </#00f2fe>"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Tablist-name-formatting
@@ -67,7 +67,7 @@ bossbar:
       style: "PROGRESS"
       color: "BLUE"
       progress: "100"
-      text: "<#00f2fe>&lAURORA SMP &8» &fWelcome &b%player%&f! &8[ &b/shop &7• &b/ah &7• &b/orders &8]"
+      text: "<#00f2fe>&lQUARTZ SMP &8» &fWelcome &b%player%&f! &8[ &b/shop &7• &b/ah &7• &b/orders &8]"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard
 scoreboard:
@@ -78,7 +78,7 @@ scoreboard:
   delay-on-join-milliseconds: 0
   scoreboards:
     scoreboard-1.20.3+:
-      title: "<#00f2fe>&lAURORA <#4facfe>&lSMP</#00f2fe>"
+      title: "<#00f2fe>&lQUARTZ <#4facfe>&lSMP</#00f2fe>"
       display-condition: "%player-version-id%>=765;%bedrock%=false"
       lines:
         - "&7&m---------------------"
@@ -92,9 +92,9 @@ scoreboard:
         - "&fOnline: &f%online%&7/&f%maxplayers%"
         - "&fPing: &a%player_ping%ms"
         - "&7&m---------------------"
-        - "&bplay.aurorasmp.net"
+        - "&bplay.quartzsmp.net"
     scoreboard:
-      title: "<#00f2fe>&lAURORA <#4facfe>&lSMP</#00f2fe>"
+      title: "<#00f2fe>&lQUARTZ <#4facfe>&lSMP</#00f2fe>"
       lines:
         - "&7&m---------------------"
         - "&fPlayer: &b%player%"
@@ -107,7 +107,7 @@ scoreboard:
         - "&fOnline: &f%online%&7/&f%maxplayers%"
         - "&fPing: &a%player_ping%ms"
         - "&7&m---------------------"
-        - "&bplay.aurorasmp.net"
+        - "&bplay.quartzsmp.net"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Layout
 layout:

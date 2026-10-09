@@ -24,6 +24,7 @@ logs/
 # Crash reports & temp files
 crash-reports/
 *.tmp
+*.zip
 .DS_Store
 Thumbs.db
 

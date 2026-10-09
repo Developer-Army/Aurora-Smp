@@ -1,6 +1,6 @@
-# Aurora SMP (1.21.11 Lifesteal & Economy)
+# Quartz SMP (1.21.11 Lifesteal & Economy)
 
-Aurora SMP is an enterprise-optimized Minecraft **1.21.11** Lifesteal and Economy server built on **Purpur**, configured for high-performance dedicated hosting (Ryzen 9 / 5600X, 12GB RAM, 50GB SSD).
+Quartz SMP is an enterprise-optimized Minecraft **1.21.11** Lifesteal and Economy server built on **Purpur**, configured for high-performance dedicated hosting (Ryzen 9 / 5600X, 12GB RAM, 50GB SSD).
 
 Universal cross-version protocol support is pre-installed via the ViaVersion suite, allowing all players across Minecraft versions **1.8 through 1.21.11+ / modern clients** to connect.
 
@@ -26,7 +26,7 @@ Universal cross-version protocol support is pre-installed via the ViaVersion sui
   * [Lightning Anticheat](plugins/LightningAC.jar): High-performance fork of GrimAC utilizing an asynchronous predictive 1:1 movement simulation engine with optimized reach, interaction, and movement checks.
   * [CombatLogX](plugins/CombatLogX/config.yml): Strict PvP-only combat tagging (natural damage and mob taggers stripped so fall, fire, and PvE never tag). 15-second timer, disconnect death punishment, and blocked escape commands (`/tpa`, `/home`, `/spawn`, `/lobby`, `/shop`, `/ah`, `/orders`, `/rtp`, `/ec`).
 * **Visuals & Permissions**:
-  * [TAB](plugins/TAB/config.yml): Aurora SMP gradient headers, footers, nametags, and DonutSMP sidebar scoreboard showing Hearts (`%player_health%❤`), Balance, and Combat Status.
+  * [TAB](plugins/TAB/config.yml): Quartz SMP gradient headers, footers, nametags, and DonutSMP sidebar scoreboard showing Hearts (`%player_health%❤`), Balance, and Combat Status.
   * [LuckPerms](plugins/LuckPerms/yaml-storage/groups/default.yml): File-based YAML permissions for instant deployability.
   * [Vault](plugins/Vault/): Unified economy bridge.
   * [FastAsyncWorldEdit (FAWE)](plugins/FastAsyncWorldEdit/): Spawn protection and low-memory asynchronous terrain editing with lobby schematic included.

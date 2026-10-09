@@ -6,7 +6,7 @@ debug: false
 language: en.yml
 text:
   login:
-    title: "§d✦ Aurora SMP ✦ §e⚠"
+    title: "§d✦ Quartz SMP ✦ §e⚠"
     tip: "§fWelcome back, Dreamer!\n§7Your adventure is waiting for you.\n§7Please enter your password to continue."
     password_label: "§dPassword"
     login_button: "§d✦ LOGIN"
@@ -16,8 +16,8 @@ text:
     password_error: "§cIncorrect password!"
     reopen: "Type /logui to reopen the login dialog"
   register:
-    title: "§d✦ Aurora SMP ✦ §a✦"
-    tip: "§fWelcome to Aurora SMP!\n§7Please create a secure password to start your journey."
+    title: "§d✦ Quartz SMP ✦ §a✦"
+    tip: "§fWelcome to Quartz SMP!\n§7Please create a secure password to start your journey."
     tip_password: "§7Please set a password"
     tip_confirm: "§7Please confirm your password"
     password_label: "§dSet Password"
@@ -28,7 +28,7 @@ text:
     exit_message: "§cRegistration cancelled."
     please_reset_password: "Please reset your password."
     registration_failed: "§cRegistration failed!"
-    registration_successful: "§aRegistration successful! Welcome to Aurora SMP."
+    registration_successful: "§aRegistration successful! Welcome to Quartz SMP."
     password_not_match: "§cPasswords do not match!"
     reopen: "Type /regui to reopen the registration dialog"
   change_password:

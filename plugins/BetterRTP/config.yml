@@ -45,6 +45,7 @@ DisabledWorlds:
 Overrides:
 - master_world: world
 - creative_world: world
+- lobby: world
 WorldType:
 - world: NORMAL
 - world_nether: NETHER
@@ -122,10 +123,10 @@ Settings:
 
 Default:
   RTPOnDeath: false
-  UseWorldBorder: false
+  UseWorldBorder: true
   Biomes: []
-  MaxRadius: 4000
-  MinRadius: 100
+  MaxRadius: 50000
+  MinRadius: 500
   CenterX: 0
   CenterZ: 0
   Shape: circle
@@ -134,10 +135,10 @@ Default:
 
 CustomWorlds:
 - Name: world
-  UseWorldBorder: false
+  UseWorldBorder: true
   Biomes: []
-  MaxRadius: 5000
-  MinRadius: 200
+  MaxRadius: 50000
+  MinRadius: 500
   CenterX: 0
   CenterZ: 0
   Shape: circle

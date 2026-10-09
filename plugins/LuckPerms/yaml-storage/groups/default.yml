@@ -42,6 +42,8 @@ permissions:
       value: true
   - essentials.tpdeny:
       value: true
+  - essentials.tpahere:
+      value: true
   - essentials.sethome:
       value: true
   - essentials.home:
