@@ -72,7 +72,7 @@ misc:
   fix-entity-position-desync: true
   load-permissions-yml-before-plugins: true
   max-joins-per-tick: 5
-  region-file-cache-size: 64
+  region-file-cache-size: 256
   strict-advancement-dimension-check: false
   use-alternative-luck-formula: false
   use-dimension-type-for-custom-spawners: false
