@@ -1,0 +1,8 @@
+# Multiverse-CommandDestination Configuration
+# Aurora SMP 1.21.11
+
+commands:
+  betterrtp:
+    - 'console:rtp player %player% world'
+
+enable-papi-hook: true

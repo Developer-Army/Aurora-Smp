@@ -1,0 +1,48 @@
+# BetterRTP Configuration
+# Aurora SMP 1.21.11
+
+Language-File: 'en.yml'
+
+Settings:
+  Debugger: false
+  RespectWorldGuard: true
+  RespectGriefPrevention: false
+  RespectSavageFactions: false
+  MinRadius: 100
+  MaxAttempts: 25
+  Cooldown:
+    Enabled: false
+    Time: 0
+  Delay:
+    Enabled: false
+    Time: 0
+    CancelOnMove: false
+  Particles:
+    Enabled: true
+    Type: 'PORTAL'
+    Amount: 100
+    Shape: 'TELEPORT'
+  DisableUpdater: true
+
+Default:
+  UseWorldBorder: false
+  Biomes: []
+  MaxRadius: 4000
+  MinRadius: 100
+  CenterX: 0
+  CenterZ: 0
+  Shape: 'circle'
+  MaxY: 310
+  MinY: 62
+
+CustomWorlds:
+  - Name: 'world'
+    UseWorldBorder: false
+    Biomes: []
+    MaxRadius: 5000
+    MinRadius: 200
+    CenterX: 0
+    CenterZ: 0
+    Shape: 'circle'
+    MaxY: 310
+    MinY: 62

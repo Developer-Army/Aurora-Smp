@@ -8,6 +8,12 @@ permissions:
       value: true
   - multiverse.access.world:
       value: true
+  - multiverse.portal.access.*:
+      value: true
+  - betterrtp.use:
+      value: true
+  - betterrtp.world:
+      value: true
   - essentials.spawn:
       value: true
   - essentials.warp:

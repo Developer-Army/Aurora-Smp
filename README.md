@@ -10,6 +10,7 @@ Universal cross-version protocol support is pre-installed via the ViaVersion sui
   * [AuthMeReloaded](plugins/AuthMe.jar) & [FlexLoginUI](plugins/FlexLoginUI/configs/en.yml): Modern interactive modal dialog authentication with password hashing, session timeout, movement freezing, and PacketEvents packet interception matching the MineDream dialog UI.
 * **Island Lobby & Hub**:
   * [Lobby World](lobby/): BreadBuilds Island Lobby configured via [Multiverse-Core](plugins/Multiverse-Core/) and protected by [WorldGuard](plugins/WorldGuard/worlds/lobby/regions.yml) (PvP disabled, fall damage denied, peaceful, invincibility enabled). Players access via `/lobby` or `/spawn`.
+  * **Nether Portal RTP**: The large Nether Portal in the Island Lobby is wired via [Multiverse-Portals](plugins/Multiverse-Portals/portals.yml) and [Multiverse-CommandDestination](plugins/Multiverse-CommandDestination/config.yml) to automatically execute [BetterRTP](plugins/BetterRTP/config.yml) (`/rtp`), instantly scattering players safely into the survival wilderness.
 * **DonutSMP Economy**:
   * [DonutOrders](plugins/DonutOrders/config.yml): Player-driven buy and sell order exchange (`/orders` and `/order`) with automated escrow payouts.
   * [EconomyShopGUI](plugins/EconomyShopGUI/shops/Farming.yml): DonutSMP crop prices for Sugar Cane, Cactus, Bamboo, Wheat, and Mob items to incentivize massive automated farming, along with `/sell` commands.
@@ -19,7 +20,7 @@ Universal cross-version protocol support is pre-installed via the ViaVersion sui
   * [LifeSteal](plugins/LifeSteal/config.yml): 20-heart (40 HP) cap, custom heart items (`/withdrawheart`), and strict 1-heart floor limit (players never drop or lose hearts below 1 heart).
 * **Combat & Anticheat**:
   * [Lightning Anticheat](plugins/LightningAC.jar): High-performance fork of GrimAC utilizing an asynchronous predictive 1:1 movement simulation engine with optimized reach, interaction, and movement checks.
-  * [CombatLogX](plugins/CombatLogX/config.yml): 15-second combat tagging, immediate disconnect death punishment, and blocked escape commands (`/tpa`, `/home`, `/spawn`, `/lobby`, `/shop`, `/ah`, `/orders`, `/ec`).
+  * [CombatLogX](plugins/CombatLogX/config.yml): Strict PvP-only combat tagging (natural damage and mob taggers stripped so fall, fire, and PvE never tag). 15-second timer, disconnect death punishment, and blocked escape commands (`/tpa`, `/home`, `/spawn`, `/lobby`, `/shop`, `/ah`, `/orders`, `/rtp`, `/ec`).
 * **Visuals & Permissions**:
   * [TAB](plugins/TAB/config.yml): Aurora SMP gradient headers, footers, nametags, and DonutSMP sidebar scoreboard showing Hearts (`%player_health%❤`), Balance, and Combat Status.
   * [LuckPerms](plugins/LuckPerms/yaml-storage/groups/default.yml): File-based YAML permissions for instant deployability.

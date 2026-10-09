@@ -1,0 +1,14 @@
+# Multiverse-Portals Portals List
+# Aurora SMP 1.21.11
+
+portals:
+  rtp_portal:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: ''
+    location: -7.0,65.0,27.0:7.0,95.0,31.0:lobby
+    destination: cmd:betterrtp
