@@ -16,26 +16,41 @@ _version: 31
 anticheat:
   anti-xray:
     enabled: true
-    engine-mode: 1
+    engine-mode: 2
     hidden-blocks:
+    - copper_ore
+    - deepslate_copper_ore
     - diamond_ore
     - deepslate_diamond_ore
-    - ancient_debris
-    - emerald_ore
-    - deepslate_emerald_ore
     - gold_ore
     - deepslate_gold_ore
     - iron_ore
     - deepslate_iron_ore
     - lapis_ore
     - deepslate_lapis_ore
+    - redstone_ore
+    - deepslate_redstone_ore
+    - emerald_ore
+    - deepslate_emerald_ore
+    - coal_ore
+    - deepslate_coal_ore
+    - ancient_debris
+    - nether_gold_ore
+    - nether_quartz_ore
     - chest
-    lava-obscures: false
-    max-block-height: 128
+    - trapped_chest
+    - barrel
+    - spawner
+    lava-obscures: true
+    max-block-height: 180
     replacement-blocks:
     - stone
     - deepslate
     - netherrack
+    - tuff
+    - andesite
+    - diorite
+    - granite
     update-radius: 2
     use-permission: false
   obfuscation:
