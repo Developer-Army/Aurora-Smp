@@ -1,6 +1,6 @@
 {
   "sender_id": "d7b44be4-23b0-4ab8-950f-a67c530d8e4b:7d5b2c5b-c86f-485f-baaa-f3814b38edd5:fb02e6ce-bbc3-40d4-9c52-86d442662e55",
-  "send_metrics": true,
-  "send_errors": true,
+  "send_metrics": false,
+  "send_errors": false,
   "disable_logging": false
 }

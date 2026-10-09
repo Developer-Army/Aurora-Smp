@@ -19,6 +19,7 @@ logs/
 /world/
 /world_nether/
 /world_the_end/
+/lobby/
 
 # Crash reports & temp files
 crash-reports/

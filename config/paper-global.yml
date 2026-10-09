@@ -20,19 +20,19 @@ block-updates:
   disable-tripwire-updates: false
 chunk-loading-advanced:
   auto-config-send-distance: true
-  player-max-concurrent-chunk-generates: 0
-  player-max-concurrent-chunk-loads: 0
+  player-max-concurrent-chunk-generates: 2
+  player-max-concurrent-chunk-loads: 4
 chunk-loading-basic:
   player-max-chunk-generate-rate: -1.0
-  player-max-chunk-load-rate: 100.0
-  player-max-chunk-send-rate: 75.0
+  player-max-chunk-load-rate: 60.0
+  player-max-chunk-send-rate: 40.0
 chunk-system:
   gen-parallelism: default
   io-threads: -1
   worker-threads: -1
 collisions:
   enable-player-collisions: true
-  send-full-pos-for-hard-colliding-entities: true
+  send-full-pos-for-hard-colliding-entities: false
 commands:
   fix-target-selector-tag-completion: true
   suggest-player-names-when-null-tab-completions: true
@@ -72,7 +72,7 @@ misc:
   fix-entity-position-desync: true
   load-permissions-yml-before-plugins: true
   max-joins-per-tick: 5
-  region-file-cache-size: 256
+  region-file-cache-size: 64
   strict-advancement-dimension-check: false
   use-alternative-luck-formula: false
   use-dimension-type-for-custom-spawners: false
@@ -88,8 +88,8 @@ packet-limiter:
       interval: 4.0
       max-packet-rate: 5.0
 player-auto-save:
-  max-per-tick: -1
-  rate: -1
+  max-per-tick: 5
+  rate: 6000
 proxies:
   bungee-cord:
     online-mode: true

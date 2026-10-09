@@ -19,15 +19,15 @@ enable-suffocation-optimization: true
 enable-async-mob-spawning: true
 # Optimizes projectile settings
 projectile:
-  max-loads-per-tick: 8
-  max-loads-per-projectile: 8
+  max-loads-per-tick: 6
+  max-loads-per-projectile: 6
 # Optimizes entity brains when
 # they're far away from the player
 dab:
   enabled: true
-  start-distance: 12
+  start-distance: 8
   max-tick-freq: 20
-  activation-dist-mod: 8
+  activation-dist-mod: 7
   blacklisted-entities: []
 inactive-goal-selector-throttle: true
 # Settings for things that don't belong elsewhere

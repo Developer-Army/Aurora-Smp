@@ -67,7 +67,7 @@ bossbar:
       style: "PROGRESS"
       color: "BLUE"
       progress: "100"
-      text: "<#00f2fe>&lAURORA SMP &8» &fWelcome &b%player%&f! &8[ &b/shop &7• &b/ah &7• &b/kit &8]"
+      text: "<#00f2fe>&lAURORA SMP &8» &fWelcome &b%player%&f! &8[ &b/shop &7• &b/ah &7• &b/orders &8]"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard
 scoreboard:
@@ -216,7 +216,7 @@ primary-group-finding-list:
 # Refresh interval (in milliseconds) of:
 # - Permission checks in conditions / sorting
 # - Group retrieving from permission plugin for sorting / per-group properties
-permission-refresh-interval: 2500
+permission-refresh-interval: 5000
 
 # Unlocks extra console messages
 debug: false
@@ -233,7 +233,7 @@ mysql:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Multi-server-support
 proxy-support:
-  enabled: true
+  enabled: false
   channel-name-suffix: "custom"
   # Supported types: PLUGIN, REDIS, RABBITMQ
   type: PLUGIN

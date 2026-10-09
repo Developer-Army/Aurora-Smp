@@ -65,12 +65,12 @@ world-settings:
     simulation-distance: default
     thunder-chance: 100000
     merge-radius:
-      item: 3.5
-      exp: 4.0
-    mob-spawn-range: 6
+      item: 4.0
+      exp: 6.0
+    mob-spawn-range: 3
     item-despawn-rate: 6000
-    arrow-despawn-rate: 1200
-    trident-despawn-rate: 1200
+    arrow-despawn-rate: 300
+    trident-despawn-rate: 300
     zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
     enable-zombie-pigmen-portal-spawns: true
@@ -102,13 +102,13 @@ world-settings:
       glowberry-modifier: 100
       pitcherplant-modifier: 100
     entity-activation-range:
-      animals: 16
-      monsters: 24
-      raiders: 48
-      misc: 8
-      water: 12
-      villagers: 16
-      flying-monsters: 24
+      animals: 12
+      monsters: 16
+      raiders: 32
+      misc: 4
+      water: 8
+      villagers: 12
+      flying-monsters: 16
       wake-up-inactive:
         animals-max-per-tick: 2
         animals-every: 1200
@@ -128,12 +128,12 @@ world-settings:
       tick-inactive-villagers: false
       ignore-spectators: false
     entity-tracking-range:
-      players: 128
-      animals: 64
-      monsters: 64
-      misc: 48
-      display: 128
-      other: 64
+      players: 48
+      animals: 32
+      monsters: 32
+      misc: 16
+      display: 48
+      other: 32
     ticks-per:
       hopper-transfer: 8
       hopper-check: 8
@@ -171,8 +171,8 @@ world-settings:
       other-multiplier: 0.0
     max-tnt-per-tick: 100
     max-tick-time:
-      tile: 50
-      entity: 50
+      tile: 20
+      entity: 20
   worldeditregentempworld:
     verbose: false
 players:

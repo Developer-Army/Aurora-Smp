@@ -1,6 +1,6 @@
 # Set this option to false if you do not want the update checker to run.
 # Default: true
-update-checker: true
+update-checker: false
 
 # Set this to true if you are having issues and wish to see more console output.
 # Default: false

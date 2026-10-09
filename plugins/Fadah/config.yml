@@ -6,13 +6,13 @@
 # Toggle with /ah toggle
 enabled: true
 default-max-listings: 3
-log-to-file: true
+log-to-file: false
 # Minimal mode changes these functions:
 #  - Bypass sell menu and just list the item
 minimal-mode: false
 # This doesnt disable the update checker in console,
 # only for when players with the permission 'fadah.manage.profile' join.
-update-checker: true
+update-checker: false
 max-listing-length:
   amount: 10
   unit: DAYS

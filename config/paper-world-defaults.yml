@@ -16,13 +16,14 @@ _version: 31
 anticheat:
   anti-xray:
     enabled: true
-    engine-mode: 1
+    engine-mode: 2
     hidden-blocks:
     - copper_ore
     - deepslate_copper_ore
     - raw_copper_block
     - gold_ore
     - deepslate_gold_ore
+    - raw_gold_block
     - iron_ore
     - deepslate_iron_ore
     - raw_iron_block
@@ -41,12 +42,22 @@ anticheat:
     - emerald_ore
     - deepslate_emerald_ore
     - ender_chest
+    - ancient_debris
+    - nether_gold_ore
+    - nether_quartz_ore
     lava-obscures: false
-    max-block-height: 64
+    max-block-height: 180
     replacement-blocks:
     - stone
     - oak_planks
     - deepslate
+    - tuff
+    - diorite
+    - andesite
+    - granite
+    - netherrack
+    - basalt
+    - blackstone
     update-radius: 2
     use-permission: false
   obfuscation:
@@ -56,7 +67,7 @@ anticheat:
       hide-itemmeta-with-visual-effects: false
 chunks:
   auto-save-interval: default
-  delay-chunk-unloads-by: 5s
+  delay-chunk-unloads-by: 10s
   entity-per-chunk-save-limit:
     arrow: -1
     ender_pearl: -1
@@ -66,8 +77,8 @@ chunks:
     snowball: -1
   fixed-chunk-inhabited-time: -1
   flush-regions-on-save: false
-  max-auto-save-chunks-per-tick: 8
-  prevent-moving-into-unloaded-chunks: false
+  max-auto-save-chunks-per-tick: 6
+  prevent-moving-into-unloaded-chunks: true
 collisions:
   allow-player-cramming-damage: false
   allow-vehicle-collisions: true
@@ -84,7 +95,7 @@ entities:
   behavior:
     allow-spider-world-border-climbing: true
     baby-zombie-movement-modifier: 0.5
-    disable-chest-cat-detection: false
+    disable-chest-cat-detection: true
     disable-creeper-lingering-effect: false
     disable-player-crits: false
     door-breaking-difficulty:
@@ -128,7 +139,7 @@ entities:
     zombies-target-turtle-eggs: true
   entities-target-with-follow-range: false
   markers:
-    tick: true
+    tick: false
   mob-effects:
     immune-to-wither-effect:
       wither: true
@@ -140,9 +151,19 @@ entities:
   spawning:
     all-chunks-are-slime-chunks: false
     alt-item-despawn-rate:
-      enabled: false
+      enabled: true
       items:
         cobblestone: 300
+        netherrack: 300
+        dirt: 300
+        gravel: 300
+        sand: 300
+        diorite: 300
+        granite: 300
+        andesite: 300
+        tuff: 300
+        deepslate: 300
+        arrow: 200
     count-all-mobs-for-spawning: false
     creative-arrow-despawn-rate: default
     despawn-range-shape: ELLIPSOID
@@ -160,8 +181,8 @@ entities:
         hard: default
         soft: default
       monster:
-        hard: default
-        soft: default
+        hard: 56
+        soft: 28
       underground_water_creature:
         hard: default
         soft: default
@@ -270,7 +291,7 @@ fixes:
 hopper:
   cooldown-when-full: true
   disable-move-event: false
-  ignore-occluding-blocks: false
+  ignore-occluding-blocks: true
 lootables:
   auto-replenish: false
   max-refills: -1
@@ -308,15 +329,15 @@ spawn:
 tick-rates:
   behavior:
     villager:
-      validatenearbypoi: -1
+      validatenearbypoi: 40
   container-update: 2
   dry-farmland: 1
-  grass-spread: 1
-  mob-spawner: 2
+  grass-spread: 4
+  mob-spawner: 3
   sensor:
     villager:
-      secondarypoisensor: 40
+      secondarypoisensor: 80
   wet-farmland: 1
 unsupported-settings:
-  disable-world-ticking-when-empty: false
+  disable-world-ticking-when-empty: true
   fix-invulnerable-end-crystal-exploit: true

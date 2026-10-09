@@ -10,7 +10,7 @@
 # switch to the replacer provided by adventure itself by changing use_adventure_provided_replacer to true
 # No placeholders are provided with this plugin by default.
 # Download placeholders: /papi ecloud
-check_updates: true
+check_updates: false
 cloud_enabled: true
 cloud_sorting: "name"
 boolean:

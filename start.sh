@@ -21,7 +21,8 @@ else
     exit 1
 fi
 
-exec "$JAVA_BIN" -Xms10G -Xmx10G \
+RAM="${SERVER_RAM:-2G}"
+exec "$JAVA_BIN" -Xms"$RAM" -Xmx"$RAM" \
   -XX:+UseG1GC \
   -XX:+ParallelRefProcEnabled \
   -XX:MaxGCPauseMillis=200 \

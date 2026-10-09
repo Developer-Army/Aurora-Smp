@@ -1,0 +1,15 @@
+# Multiverse-Core Configuration
+# Aurora SMP 1.21.11
+
+multiverse-configuration:
+  enforceaccess: false
+  prefixchat: false
+  prefixchatformat: '[%world%]%chat%'
+  useasyncchat: true
+  teleportintercept: true
+  firstspawnoverride: true
+  firstspawnworld: lobby
+  version: 2.9
+  defaultenforceaccess: false
+  clearformat: true
+  bedrespawn: true

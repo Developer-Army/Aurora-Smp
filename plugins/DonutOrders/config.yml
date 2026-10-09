@@ -3,7 +3,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 update-check:
-  enabled: true
+  enabled: false
   notify-ops-on-join: true
 
 orders:

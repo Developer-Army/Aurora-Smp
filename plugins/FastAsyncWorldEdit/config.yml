@@ -24,11 +24,11 @@ enabled-components:
   # Leave it off if you don't need it, it can spam your console.
   debug: false
   # Whether or not FAWE should notify you on startup about new available snapshots.
-  snapshot-update-notifications: true
+  snapshot-update-notifications: false
   # Whether or not FAWE should notify you on startup about new releases.
-  release-update-notifications: true
+  release-update-notifications: false
   # Whether or not FAWE should notify you for updates (snapshot / release) on join (with the required permission)
-  notify-update-ingame: true
+  notify-update-ingame: false
 
 clipboard:
   # Store the clipboard on disk instead of memory
@@ -45,7 +45,7 @@ clipboard:
   # Number of days to keep history on disk before deleting it
   delete-after-days: 1
   # If a player's clipboard should be deleted upon logout
-  delete-on-logout: false
+  delete-on-logout: true
   # Allows NBT stored in a clipboard to be written to disk
   #  - Requires clipboard.use-disk to be enabled
   save-clipboard-nbt-to-disk: true

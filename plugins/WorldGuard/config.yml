@@ -26,7 +26,7 @@ regions:
     use-creature-spawn-event: true
     disable-bypass-by-default: false
     announce-bypass-status: false
-    use-paper-entity-origin: false
+    use-paper-entity-origin: true
     enable: true
     invincibility-removes-mobs: false
     cancel-chat-without-recipients: true

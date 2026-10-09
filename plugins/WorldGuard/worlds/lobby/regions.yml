@@ -1,0 +1,19 @@
+# WorldGuard Region Configuration for Lobby
+# Aurora SMP 1.21.11
+
+regions:
+  __global__:
+    flags:
+      build: deny
+      pvp: deny
+      tnt: deny
+      creeper-explosion: deny
+      mob-spawning: deny
+      fall-damage: deny
+      invincible: allow
+      hunger-depletion: deny
+      fire-spread: deny
+      lava-fire: deny
+      lighter: deny
+      item-drop: deny
+      greeting: "&b&lAurora SMP &7» Welcome to the Server Lobby!"
